@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
 import "@tensorflow/tfjs-backend-webgl"; // Load WebGL backend
 
@@ -21,7 +21,7 @@ function Dashboard() {
     console.log("Handpose model loaded");
 
     // loop to detect the hands
-    const interval = setInterval(() => {
+    setInterval(() => {
       detectHand(handposeModel);
     }, 100);
   };

@@ -1,10 +1,13 @@
 {
+  "homepage": "https://JojuGeorge.github.io/gesture-recognition-v1",
   "name": "gesture-recognition-v1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
