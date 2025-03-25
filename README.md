@@ -14,3 +14,5 @@
 - react-webcam
 - @tensorflow/tfjs
 - @tensorflow-models/handpose
+
+<img src="./src/assets/hand-output-skeleton.jpg" alt="App Screenshot" width="500"/>
